@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "HCPJ",
+    "slug": "Appgps",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "hc.com.vn",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAoRq60HSExgJMuCmxUcInNEGwDfa5hIJA "
+      }  
+    },
+    "android": {
+      "package": "com.HC"
+    }
+
+  }
+
+}
